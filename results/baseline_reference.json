@@ -1,0 +1,21 @@
+{
+  "architecture": [
+    64,
+    64,
+    32,
+    10
+  ],
+  "activation": "ReLU between hidden linear layers",
+  "output": "logits; softmax only for evaluation confidence",
+  "device": "cpu",
+  "dtype": "float32",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "epochs": 300,
+  "seed": 20260926,
+  "n_train": 1257,
+  "n_test": 540,
+  "n_correct_test": 523,
+  "n_eligible": 523,
+  "test_accuracy": 0.9685184955596924
+}

@@ -1,0 +1,37 @@
+{
+  "seed": 20260926,
+  "source_file": "results\\bit_injection_results.csv",
+  "n_source_rows": 1920,
+  "n_layers": 3,
+  "n_bits_per_layer": 32,
+  "n_layer_bit_cells": 96,
+  "n_weight_injections_per_cell": 20,
+  "n_eligible_images_per_injection": 523,
+  "denominator_per_layer_bit_cell": 10460,
+  "n_image_evaluations": 1004160,
+  "totals": {
+    "new_errors": 9072,
+    "silent_errors": 8378,
+    "nonfinite_outputs": 2055
+  },
+  "overall_rates": {
+    "new_error_rate": 0.009034416826003824,
+    "silent_error_rate": 0.008343291905672403,
+    "nonfinite_output_rate": 0.0020464866156787763
+  },
+  "zero_event_cells": {
+    "new_errors": 71,
+    "silent_errors": 71,
+    "nonfinite_outputs": 95
+  },
+  "definitions": {
+    "denominator": "Número de injeções na célula multiplicado pelo número de imagens elegíveis avaliadas em cada injeção.",
+    "new_error_rate": "n_new_errors / denominator_image_evaluations",
+    "silent_error_rate": "n_silent_errors / denominator_image_evaluations",
+    "nonfinite_output_rate": "n_nonfinite_outputs / denominator_image_evaluations"
+  },
+  "output_files": [
+    "results\\aggregated_metrics_by_layer_bit.csv",
+    "results\\aggregated_metrics_by_layer.csv"
+  ]
+}

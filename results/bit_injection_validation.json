@@ -1,0 +1,194 @@
+{
+  "seed": 20260926,
+  "n_cases": 9,
+  "n_layers": 3,
+  "tested_bits": [
+    0,
+    23,
+    31
+  ],
+  "n_eligible_images": 523,
+  "passed": true,
+  "cases": [
+    {
+      "layer": "network.0",
+      "weight_index": 0,
+      "bit": 0,
+      "field": "mantissa",
+      "value_before_uint32": 1011227936,
+      "value_after_uint32": 1011227937,
+      "bit_changed_only": true,
+      "double_inversion_exact": true,
+      "double_inversion_values": {
+        "first_before": 1011227936,
+        "first_after": 1011227937,
+        "second_before": 1011227937,
+        "second_after": 1011227936
+      },
+      "finite_outputs": true,
+      "n_predictions": 523,
+      "restored_exact": true,
+      "restored_words_exact": true
+    },
+    {
+      "layer": "network.0",
+      "weight_index": 0,
+      "bit": 23,
+      "field": "exponent",
+      "value_before_uint32": 1011227936,
+      "value_after_uint32": 1019616544,
+      "bit_changed_only": true,
+      "double_inversion_exact": true,
+      "double_inversion_values": {
+        "first_before": 1011227936,
+        "first_after": 1019616544,
+        "second_before": 1019616544,
+        "second_after": 1011227936
+      },
+      "finite_outputs": true,
+      "n_predictions": 523,
+      "restored_exact": true,
+      "restored_words_exact": true
+    },
+    {
+      "layer": "network.0",
+      "weight_index": 0,
+      "bit": 31,
+      "field": "sign",
+      "value_before_uint32": 1011227936,
+      "value_after_uint32": 3158711584,
+      "bit_changed_only": true,
+      "double_inversion_exact": true,
+      "double_inversion_values": {
+        "first_before": 1011227936,
+        "first_after": 3158711584,
+        "second_before": 3158711584,
+        "second_after": 1011227936
+      },
+      "finite_outputs": true,
+      "n_predictions": 523,
+      "restored_exact": true,
+      "restored_words_exact": true
+    },
+    {
+      "layer": "network.2",
+      "weight_index": 0,
+      "bit": 0,
+      "field": "mantissa",
+      "value_before_uint32": 3187994634,
+      "value_after_uint32": 3187994635,
+      "bit_changed_only": true,
+      "double_inversion_exact": true,
+      "double_inversion_values": {
+        "first_before": 3187994634,
+        "first_after": 3187994635,
+        "second_before": 3187994635,
+        "second_after": 3187994634
+      },
+      "finite_outputs": true,
+      "n_predictions": 523,
+      "restored_exact": true,
+      "restored_words_exact": true
+    },
+    {
+      "layer": "network.2",
+      "weight_index": 0,
+      "bit": 23,
+      "field": "exponent",
+      "value_before_uint32": 3187994634,
+      "value_after_uint32": 3196383242,
+      "bit_changed_only": true,
+      "double_inversion_exact": true,
+      "double_inversion_values": {
+        "first_before": 3187994634,
+        "first_after": 3196383242,
+        "second_before": 3196383242,
+        "second_after": 3187994634
+      },
+      "finite_outputs": true,
+      "n_predictions": 523,
+      "restored_exact": true,
+      "restored_words_exact": true
+    },
+    {
+      "layer": "network.2",
+      "weight_index": 0,
+      "bit": 31,
+      "field": "sign",
+      "value_before_uint32": 3187994634,
+      "value_after_uint32": 1040510986,
+      "bit_changed_only": true,
+      "double_inversion_exact": true,
+      "double_inversion_values": {
+        "first_before": 3187994634,
+        "first_after": 1040510986,
+        "second_before": 1040510986,
+        "second_after": 3187994634
+      },
+      "finite_outputs": true,
+      "n_predictions": 523,
+      "restored_exact": true,
+      "restored_words_exact": true
+    },
+    {
+      "layer": "network.4",
+      "weight_index": 0,
+      "bit": 0,
+      "field": "mantissa",
+      "value_before_uint32": 3180731989,
+      "value_after_uint32": 3180731988,
+      "bit_changed_only": true,
+      "double_inversion_exact": true,
+      "double_inversion_values": {
+        "first_before": 3180731989,
+        "first_after": 3180731988,
+        "second_before": 3180731988,
+        "second_after": 3180731989
+      },
+      "finite_outputs": true,
+      "n_predictions": 523,
+      "restored_exact": true,
+      "restored_words_exact": true
+    },
+    {
+      "layer": "network.4",
+      "weight_index": 0,
+      "bit": 23,
+      "field": "exponent",
+      "value_before_uint32": 3180731989,
+      "value_after_uint32": 3172343381,
+      "bit_changed_only": true,
+      "double_inversion_exact": true,
+      "double_inversion_values": {
+        "first_before": 3180731989,
+        "first_after": 3172343381,
+        "second_before": 3172343381,
+        "second_after": 3180731989
+      },
+      "finite_outputs": true,
+      "n_predictions": 523,
+      "restored_exact": true,
+      "restored_words_exact": true
+    },
+    {
+      "layer": "network.4",
+      "weight_index": 0,
+      "bit": 31,
+      "field": "sign",
+      "value_before_uint32": 3180731989,
+      "value_after_uint32": 1033248341,
+      "bit_changed_only": true,
+      "double_inversion_exact": true,
+      "double_inversion_values": {
+        "first_before": 3180731989,
+        "first_after": 1033248341,
+        "second_before": 1033248341,
+        "second_after": 3180731989
+      },
+      "finite_outputs": true,
+      "n_predictions": 523,
+      "restored_exact": true,
+      "restored_words_exact": true
+    }
+  ]
+}
